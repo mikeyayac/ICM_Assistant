@@ -549,7 +549,7 @@
       host.innerHTML = '';
 
       try {
-        const view = new AdobeDC.View({ clientId: '3d7341651bfd43aab5c7367ce6e97403', divId: 'pdfHost' });
+        const view = new AdobeDC.View({ clientId: 'a429093448a84462aa44bb6e50dd82d5', divId: 'pdfHost' });
         const v = await view.previewFile(
           { content: { location: { url: doc.url } }, metaData: { fileName: ' ' } },
           { showDownloadPDF: true, showPrintPDF: true, showZoomControl: true,
